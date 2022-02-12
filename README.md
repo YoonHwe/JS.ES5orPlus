@@ -7,8 +7,8 @@ Web API(Application Programming Interface): 브라우저가 제공하는(이해�
 자바스크립트 공식 사이트: ecma-international.org (대체 ==> developer.mozilla.org)
 
 js파일 언제 참조하냐...
-<head>에 포함시키기 - (단) js파일의 size가 큰 경우 페이지 로드에 시간이 오래 걸림
-<body>에 포함시키기 - (단) 웹사이트가 js 의존적이라면(사용자가 js가 늦게 온다면 사이트 보는데 지장이 있는경우)... 문제 발생
+'head'에 포함시키기 - (단) js파일의 size가 큰 경우 페이지 로드에 시간이 오래 걸림
+'body'에 포함시키기 - (단) 웹사이트가 js 의존적이라면(사용자가 js가 늦게 온다면 사이트 보는데 지장이 있는경우)... 문제 발생
 
 async: js 파일의 다운로드 및 실행을 HTML parsing과 병렬으로 가져간다
 (장) 다운로드 시간 절약
