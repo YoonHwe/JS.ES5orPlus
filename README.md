@@ -1,10 +1,9 @@
-자바스크립트 기초 강의(ES5+)
+<h1>자바스크립트 기초 강의(ES5+)</h1>
 
-2022/2/12
+<h2> <2강> 2022/2/12 </h2>
 
-<2강>
-
-Web API(Application Programming Interface): 브라우저가 제공하는(이해할 수 있는) 함수
+<ul>
+<li>Web API(Application Programming Interface): 브라우저가 제공하는(이해할 수 있는) 함수</li>
 
 자바스크립트 공식 사이트: ecma-international.org (대체 ==> developer.mozilla.org)
 
