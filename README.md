@@ -1,5 +1,6 @@
 <h1>자바스크립트 기초 강의(ES5+)</h1>
 
+<!--  -->
 <h2> 2강: async/defer (2022/2/12) </h2>
 
 <ul>
@@ -23,6 +24,7 @@
 => 'use strict'를 통해 선언되지 않은 변수를 쓰는 등의 오류를 포착하자</li>
 </ul>
 
+<!--  -->
 <h2> 3강: Variable (2022/2/12) </h2>
 <ul>
 <li>let은 ES6에서 추가되었음.
@@ -83,7 +85,7 @@ yoon은 변경할 수 없지만, yoon.name과 yoon.age로 내용은 변경 가�
 
 <li>Immutable data type(primitive types) VS Mutable data type(object)</li>
 
-
+<!--  -->
 <h2> 4강: 연산 (2022/2/14) </h2>
 <ul>
 <li>1. String - 줄바꿈, 따옴표 적용 가능</li>
@@ -103,4 +105,36 @@ yoon은 변경할 수 없지만, yoon.name과 yoon.age로 내용은 변경 가�
 <li>10. Switch</li>
 <li>11. While / do While</li>
 <li>12. loop(nested는 주의)</li>
+</ul>
+
+<!--  -->
+<h2> 5강: 함수의 선언과 표현 (2022/2/14) </h2>
+<ul>
+<li>1. 함수 선언</li>
+<li>2. 인자(parameter) - object도 올 수 있음</li>
+<li>3. Default 인자 - 만약 인자에 대한 정보 부족해서 default가 오면 undefined로 온다</li>
+<li>4. Rest 인자 - '...'은 여러 인자 온다는 것
+for(i = 0; i < args.length; i++){
+    console.log(args[i]);
+}
+for(const arg of args){
+    console.log(arg);
+}
+args.forEach((arg) => console.log(arg));
+위 세 개는 동일한 기능
+</li>
+<li>5. 변수 범위 - 함수 내부에서 전역 변수는 접근 가능하지만, 지역 변수를 외부에서 접근할 수는 없음</li>
+<li>6. return - 따로 선언안하면 return undefined</li>
+<li>7. Early return, early exit! - 조건문 사용 시, 간단한 로직부터 앞에 넣자
+</li>
+<li>8. 함수 표현 - anonymous(함수 이름 없는 것) vs named(함수 이름 있는 것) </li>
+<li>9. Callback function - 함수를 인자로 전달해서 상황에 따라 함수를 호출</li>
+<li>10. Arrow function
+const simplePrint = function(){
+    console.log('simplePrint!');
+}
+======>
+const simplePrint = () => { console.log('simplePrint'); }
+</li>
+
 </ul>
