@@ -86,21 +86,21 @@ yoon은 변경할 수 없지만, yoon.name과 yoon.age로 내용은 변경 가�
 
 <h2> 4강: 연산 (2022/2/14) </h2>
 <ul>
-<li>1. String - 줄바꿈, 따옴표 적용 가능<li>
-<li>2. Numeric - 덧셈, 뺄셈, 나눗셈, 곱셈, 나머지, 거듭제곱<li>
-<li>3. Increment & Decrement - 전위, 후위<li>
-<li>4. 변수 assignment<li>
-<li>5. Comparison - <, >, == 를 이용해 true, false 리턴<li>
-<li>6. Logic - or(||), and(&&), not(!)<li>
+<li>1. String - 줄바꿈, 따옴표 적용 가능</li>
+<li>2. Numeric - 덧셈, 뺄셈, 나눗셈, 곱셈, 나머지, 거듭제곱</li>
+<li>3. Increment & Decrement - 전위, 후위</li>
+<li>4. 변수 assignment</li>
+<li>5. Comparison - <, >, == 를 이용해 true, false 리턴</li>
+<li>6. Logic - or(||), and(&&), not(!)</li>
 <li>7. Equal - == vs ===
 ==: with type conversion(참조 다르면 false, 참조 같고 내용이 같다으면 true)
 ===: no type conversion(내용 같아도 타입 다르면 false)
-<li>
-<li>8. Conditional - if<li>
+</li>
+<li>8. Conditional - if</li>
 <li>9. Ternary operator: ?
 조건 ? 출력1 : 출력2
-<li>
-<li>10. Switch<li>
-<li>11. While / do While<li>
-<li>12. loop(nested는 주의)<li>
+</li>
+<li>10. Switch</li>
+<li>11. While / do While</li>
+<li>12. loop(nested는 주의)</li>
 </ul>
