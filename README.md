@@ -1,6 +1,6 @@
 <h1>자바스크립트 기초 강의(ES5+)</h1>
 
-<h2> 2강: 2022/2/12 </h2>
+<h2> 2강: async/defer (2022/2/12) </h2>
 
 <ul>
 <li>Web API(Application Programming Interface): 브라우저가 제공하는(이해할 수 있는) 함수</li>
@@ -23,7 +23,7 @@
 => 'use strict'를 통해 선언되지 않은 변수를 쓰는 등의 오류를 포착하자</li>
 </ul>
 
-<h2> <3강> - Variable </h2>
+<h2> 3강: Variable (2022/2/12) </h2>
 <ul>
 <li>let은 ES6에서 추가되었음.
 
@@ -77,4 +77,30 @@ const yoon = {
     age: '27'
 }
 yoon은 변경할 수 없지만, yoon.name과 yoon.age로 내용은 변경 가능 
+=> yoon을 가리키는 pointer가 잠긴 것(constance), 나머지 멤버는 접근 가능</li>
+
+</ul>
+
+<li>Immutable data type(primitive types) VS Mutable data type(object)</li>
+
+
+<h2> 4강: 연산 (2022/2/14) </h2>
+<ul>
+<li>1. String - 줄바꿈, 따옴표 적용 가능<li>
+<li>2. Numeric - 덧셈, 뺄셈, 나눗셈, 곱셈, 나머지, 거듭제곱<li>
+<li>3. Increment & Decrement - 전위, 후위<li>
+<li>4. 변수 assignment<li>
+<li>5. Comparison - <, >, == 를 이용해 true, false 리턴<li>
+<li>6. Logic - or(||), and(&&), not(!)<li>
+<li>7. Equal - == vs ===
+==: with type conversion(참조 다르면 false, 참조 같고 내용이 같다으면 true)
+===: no type conversion(내용 같아도 타입 다르면 false)
+<li>
+<li>8. Conditional - if<li>
+<li>9. Ternary operator: ?
+조건 ? 출력1 : 출력2
+<li>
+<li>10. Switch<li>
+<li>11. While / do While<li>
+<li>12. loop(nested는 주의)<li>
 </ul>
