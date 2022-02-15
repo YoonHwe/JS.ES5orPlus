@@ -138,3 +138,28 @@ const simplePrint = () => { console.log('simplePrint'); }
 </li>
 
 </ul>
+
+<!--  -->
+<h2> 6강: 클래스와 오브젝트 (2022/2/15) </h2>
+<ul>
+<li>
+1. 클래스 선언
+class Person{
+    //constructor(생성자)
+    constructor(name, age){
+        //fields
+        this.name = name;
+        this.age = age;
+    }
+    speak(){
+        console.log(`${this.name}: hello!`);
+    }
+}
+const yoonHwe = new Person('yoonhwe', 26);
+</li>
+<li>2. Getter / Setter - 인자의 값이 지정된 범위가 아니라면, 가져와서(get) 범위 내로 재설정(set)</li>
+<li>3. public / private 접근 </li>
+<li>4. static - object 마다 할당되는 것이 아니라, class 자체에 붙어 있음 => 메모리의 사용 줄일 수 있음</li>
+<li>5. 상속 - 자식 클래스를 이용하여 선언하였을 때, 부모 클래스는 자동으로 포함됨</li>
+<li>6. instanceof - 생성자의 prototype 속성이 객체의 프로토타입 체인 어딘가 존재하는지 판단</li>
+</ul>
