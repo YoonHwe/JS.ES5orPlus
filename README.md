@@ -165,3 +165,55 @@ yoon은 변경할 수 없지만, yoon.name과 yoon.age로 내용은 변경 가�
     <li>5. 상속: 자식 클래스를 이용하여 선언하였을 때, 부모 클래스는 자동으로 포함됨</li>
     <li>6. instanceof: 생성자의 prototype 속성이 객체의 프로토타입 체인 어딘가 존재하는지 판단</li>
 </ul>
+
+<!--  -->
+<h2> 7강: 배열</h2>
+<ul>
+    <li>1. 선언
+    const arr1 = new Array();
+    const arr2 = [1,2];</li>
+    <li>2. 인덱스 위치: length를 통해 배열의 길이 파악 가능</li>
+    <li>3. 반복문: for / for of / forEach</li>
+    <li>4. 추가/삭제/복사
+    push: 요소를 끝에 추가
+    pop: 끝에 있는 요소를 제거
+    unshift: 요소를 처음에 추가
+    shift: 처음에 있는 요소를 제거
+    * shift/unshift는 pop/push보다 훨씬 느리다.
+    splice: 지정한 위치로부터 특정 개수만큼 제거 + 추가 가능
+    1) splice(1, 1): 1번 index부터 1개 제거
+    2) splice(1, 1, 'melon', 'watermelon'): 1번 index부터 1개 제거 후 그 자리에 ~~ 추가
+    concat: 배열 합치기</li>
+    <li>5. 검색
+    indexOf: 제일 첫 번째로 해당하는 값의 index를 리턴
+    lastIndexOf: 제일 마지막으로 해당하는 값의 index를 리턴</li>
+</ul>
+
+<!--  -->
+<h2> 8강: 오브젝트</h2>
+<ul>오브젝트: 관련 데이터 / 기능의 집합
+    <li>1. 선언
+    1) "object literal syntax" const obj1 = {};
+    2) "object constructor syntax" const obj2 = new Object();
+    요소 추가 / 삭제 가능</li>
+    <li>2. Computed properties
+    key는 string type으로 지정해야 함</li>
+    <li>3. Property value shorthand
+    const person1 = {name: 'bob', age: 2};
+    const person2 = new Person('bob', 2);</li>
+    <li>4. 생성자 함수
+    function Person(name, age){
+        this.name = name;
+        this.age = age;
+    }</li>
+    <li>5. in operator: property가 있는지 체크</li>
+    <li>6. for..in vs for..of</li>
+    <li>7. object 복사(얕은 복사 vs 깊은 복사)
+    1) 깊은 복사
+    const user = {name: 'Yoon', age: '26'};
+    const user2 = user;
+    2) 얕은 복사
+    const user3 = {};
+    Object.assign(user3, user);
+    </li>
+</ul>
